@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WorkOut</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">151936911973625</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_criar_conta">CriarConta</string>
+    <string name="title_activity_inicio">Inicio</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "505399465507",
+    "firebase_url": "https://workout-524b8.firebaseio.com",
+    "project_id": "workout-524b8",
+    "storage_bucket": "workout-524b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505399465507:android:cf2d8e9f09d118f1",
+        "android_client_info": {
+          "package_name": "com.quiles.workout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505399465507-rn6qdnj8ok51rlkbvhsd33t56bnl0qbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvLj7ZRzfahmGNl3JSuWSHty0pErneous"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

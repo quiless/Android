@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="122dp"
+        android:src="@drawable/foto"
+        android:id="@+id/image_foto_agenda"
+        android:layout_height="121dp" />
+
+    <FrameLayout
+        android:layout_width="10dp"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_nome_agenda"
+            android:textSize="20dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="5px">
+
+        </FrameLayout>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_telefone_agenda"
+            android:textSize="18dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="5px">
+
+        </FrameLayout>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/txt_site_agenda" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="5px">
+
+        </FrameLayout>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/txt_email_agenda" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="5px">
+
+        </FrameLayout>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_endereco_agenda"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</LinearLayout>

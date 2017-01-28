@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_tela_run"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.quiles.a7minutosworkout.TelaRun"
+    tools:showIn="@layout/activity_tela_run">
+
+    <Button
+        android:text="Iniciar treino"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_iniciarTreino"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="clicaBotao" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:text="Abdominal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_exercicioAtual"
+            android:layout_weight="1"
+            tools:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="normal|bold|italic"
+            android:textSize="40dp"
+            tools:textSize="40dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_weight="1">
+
+        </FrameLayout>
+
+        <TextView
+            android:text="30"
+            android:layout_width="247dp"
+            android:layout_height="141dp"
+            android:id="@+id/txt_tempo"
+            tools:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="normal|bold|italic"
+            android:textSize="130dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_weight="1">
+
+        </FrameLayout>
+
+        <TextView
+            android:text="Próximo exercicicio"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_textoProximo"
+            android:layout_weight="3"
+            tools:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="normal|bold|italic"
+            android:textSize="24sp"
+            tools:textSize="18sp" />
+
+        <TextView
+            android:text="Flexão"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_proximoExercicio"
+            android:layout_weight="1"
+            tools:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="normal|bold|italic"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/progressbar_tempo"
+        android:layout_height="40px" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/star"
+        android:id="@+id/image_star"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:alpha="0" />
+
+</RelativeLayout>
